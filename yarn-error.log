@@ -1,0 +1,52 @@
+Arguments: 
+  /usr/local/Cellar/node/9.11.1/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js add --exact react react-dom next
+
+PATH: 
+  /Users/Mady/.rvm/gems/ruby-2.4.0/bin:/Users/Mady/.rvm/gems/ruby-2.4.0@global/bin:/Users/Mady/.rvm/rubies/ruby-2.4.0/bin:/usr/local/bin:/usr/local/bin:/Users/Mady/.nvm/versions/node/v8.11.4/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/Mady/.rvm/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  9.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: socket hang up
+      at TLSSocket.onConnectEnd (_tls_wrap.js:1083:19)
+      at Object.onceWrapper (events.js:272:13)
+      at TLSSocket.emit (events.js:185:15)
+      at endReadableNT (_stream_readable.js:1106:12)
+      at process._tickCallback (internal/process/next_tick.js:178:19)
+
+npm manifest: 
+  {
+    "name": "FETCH",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "next",
+      "build": "next build",
+      "start": "next start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MC3D/fetch.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MC3D/fetch/issues"
+    },
+    "homepage": "https://github.com/MC3D/fetch#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
